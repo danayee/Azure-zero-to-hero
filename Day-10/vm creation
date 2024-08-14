@@ -1,0 +1,9 @@
+az vm create --resource-group learning-azure-cli `
+>> --name test-cli-vm `
+>> --image Ubuntu2204 `
+>> --vnet-name test-cli-vnet `
+>> --subnet example-subnet `
+>> --admin-username validusername `
+>> --location eastus2 `
+>> --output json `
+>> --verbose
